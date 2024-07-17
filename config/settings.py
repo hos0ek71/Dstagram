@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'disqus',
     'django.contrib.sites',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -134,3 +135,4 @@ LOGIN_REDIRECT_URL = '/'
 
 DISQUS_WEBSITE_SHORTNAME = 'dstagram-django0107'
 SITE_ID = 1
+
